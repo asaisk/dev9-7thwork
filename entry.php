@@ -16,13 +16,26 @@
     <form action="insert.php" method="post">
         <ul>
             <li class="form-item">
-                <label for="title">タイトル</label>
+                <label for="title">書籍名</label>
                 <input type="text" name="title" id="title" class="uk-input">
             </li>
             <li class="form-item">
-                <label for="detail">本文</label>
-                <textarea name="detail" id="detail" cols="30" rows="10" class="uk-textarea"></textarea>
+                <label for="book_URL">書籍URL</label>
+                <input type="text" name="book_URL" id="book_URL" class="uk-input">
             </li>
+            <li class="form-item">
+                <label for="comment">コメント</label>
+                <textarea name="comment" id="comment" cols="30" rows="10" class="uk-textarea"></textarea>
+            </li>
+            <!-- <li class="form-item">
+                <label for="time">時間</label>
+                <input type="text" name="" id="time" class="uk-input">
+            </li> -->
+
+
+
+
+
         </ul>
         <input type="submit" value="送信">
     </form>    
